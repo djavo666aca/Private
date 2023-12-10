@@ -1,8 +1,7 @@
 ﻿namespace Private
 {
-     class Program
+    class Storage 
     {
-        
         private string Ime = "Milovan";
         private string Prezime = "Jovanovic";
         private int Br = 100;
@@ -11,15 +10,17 @@
         {
             return Ime + " " + Prezime;
         }
-        public int Mnozi() 
+        public int Mnozi()
         {
-         return Br * 2;
+            return Br * 2;
         }
-                
-     
-        static void Main(string[] args)
+
+
+    }
+    class Program
+    {   static void Main(string[] args)
         {
-           Program p1 = new Program();
+            Storage p1 = new Storage();
 
             Console.WriteLine(p1.Id());
             Console.WriteLine(p1.Mnozi());
