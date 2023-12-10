@@ -1,1 +1,3 @@
 # Private
+
+Sve sto je private nece biti vidljivo drugima ni main klasi ovim ,ako u toj klasi ne napravim neku public metodu koja ce uzimati podatke iz private i dodavati, oduzimati ili samo uzeti te podatke koriscenjem return na kraju... 
